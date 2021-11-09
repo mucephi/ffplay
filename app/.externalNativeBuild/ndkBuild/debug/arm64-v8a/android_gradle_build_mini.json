@@ -1,0 +1,35 @@
+{
+  "buildFiles": [
+    "/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/jni/Android.mk",
+    "/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/leonel/Library/Android/sdk/ndk/21.4.7075529/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/lib APP_PLATFORM\u003dandroid-16 clean"
+  ],
+  "libraries": {
+    "main-debug-arm64-v8a": {
+      "artifactName": "main",
+      "buildCommand": "/Users/leonel/Library/Android/sdk/ndk/21.4.7075529/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/lib APP_PLATFORM\u003dandroid-16 /Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libmain.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libmain.so"
+    },
+    "SDL2-debug-arm64-v8a": {
+      "artifactName": "SDL2",
+      "buildCommand": "/Users/leonel/Library/Android/sdk/ndk/21.4.7075529/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/lib APP_PLATFORM\u003dandroid-16 /Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libSDL2.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libSDL2.so"
+    },
+    "hidapi-debug-arm64-v8a": {
+      "artifactName": "hidapi",
+      "buildCommand": "/Users/leonel/Library/Android/sdk/ndk/21.4.7075529/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/lib APP_PLATFORM\u003dandroid-16 /Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libhidapi.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libhidapi.so"
+    },
+    "cpufeatures-debug-arm64-v8a": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "/Users/leonel/Library/Android/sdk/ndk/21.4.7075529/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/jni/Application.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/lib APP_PLATFORM\u003dandroid-16 /Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libcpufeatures.a",
+      "abi": "arm64-v8a",
+      "output": "/Users/leonel/workspaces/cpp/SDL2-2.0.16/build/com.mucephi.vplayer/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libcpufeatures.a"
+    }
+  }
+}
