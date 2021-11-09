@@ -3683,7 +3683,7 @@ int main(int argc, char **argv)
     int flags;
     VideoState *is;
 
-    input_filename = "rtsp://192.168.0.16:554/live/ch00_1";
+    input_filename = "rtsp://192.168.0.35:554/live/ch00_1";
 
     init_dynload();
 
