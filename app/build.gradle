@@ -2,6 +2,20 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('/Users/leonel/Documents/xcaspad_keystore/xcas_pad.keystore')
+            storePassword 'soymejor1983x'
+            keyAlias 'ffplay'
+            keyPassword 'ffplay9510'
+        }
+        release {
+            storeFile file('/Users/leonel/Documents/xcaspad_keystore/xcas_pad.keystore')
+            storePassword 'soymejor1983x'
+            keyAlias 'ffplay'
+            keyPassword 'ffplay9510'
+        }
+    }
     compileSdkVersion 30
     defaultConfig {
         applicationId "com.mucephi.vplayer"
