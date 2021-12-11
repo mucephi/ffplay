@@ -2,3 +2,4 @@
 .idea
 app/build
 app/release
+app/.externalNativeBuild/ndkBuild
